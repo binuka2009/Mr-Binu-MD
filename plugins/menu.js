@@ -24,28 +24,28 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
 }
 }
 
-let madeMunu = `*Hello ${pushnme}*
-> *DOWNLOAD COMMANDS*
+let madeMunu = `*𝗛𝗲𝗹𝗹𝗼 𝗗𝗲𝗮𝗿, ${pushname}*
+*𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎*
 
 ${menu.download}
 
-> *MAIN COMMANDS* 
+> *𝙈𝘼𝙄𝙉 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝘼* 
 
 ${menu.main}
 
-> *GROUP COMMANDS* 
+> *𝙂𝙍𝙊𝙐𝙋 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎* 
 
 ${menu.group}
 
-> *OWNER COMMANDS* 
+> *𝙊𝙒𝙉𝙀𝙍 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎*
 
 ${menu.owner}
 
-> *CONVERT COMMANDS* 
+> *𝘾𝙊𝙉𝙑𝙀𝙍𝙏 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎* 
 
 ${menu.convert}
 
-> *SEARCH COMMANDS* 
+> *𝙎𝙀𝘼𝙍𝘾𝙃 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎* 
 
 ${menu.search}
 
