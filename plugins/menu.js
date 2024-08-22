@@ -24,7 +24,35 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
 }
 }
 
-let madeMunu = 
+let madeMunu = `*Hello ${pushnme}*
+> *DOWNLOAD COMMANDS*
+
+${menu.download}
+
+> *MAIN COMMANDS* 
+
+${menu.main}
+
+> *GROUP COMMANDS* 
+
+${menu.group}
+
+> *OWNER COMMANDS* 
+
+${menu.owner}
+
+> *CONVERT COMMANDS* 
+
+${menu.convert}
+
+> *SEARCH COMMANDS* 
+
+${menu.search}
+
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙɪɴᴜ ᴍᴅ
+`
+
+await conn.sendMessage(from,{text:madeMenu},{quoted:mek})
 
 }catch(e){
 console.log(e)
