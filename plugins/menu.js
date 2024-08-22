@@ -52,9 +52,9 @@ ${menu.search}
 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙɪɴᴜ ᴍᴅ
 `
 
-await conn.sendMessage(from,{text:madeMenu},{quoted:mek})
+await conn.sendMessage(from,{image:{url:"https://telegra.ph/file/982640de2d7f18fced629.jpg"},caption:madeMenu},{quoted:mek})
 
 }catch(e){
 console.log(e)
 reply(`${e}`)
-}
+})
