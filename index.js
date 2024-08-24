@@ -79,7 +79,15 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `*BINU MD CONNECTED SUCCESSFUL...✅*\n\nPREFIX: ${prefix}`;
+let up = `*BINU MD CONNECTED SUCCESSFUL...✅*
+
+👉 ɢʀᴏᴜᴘ - https://chat.whatsapp.com/BanbIuf6wtI14pCbtWy2i6
+
+👉 ᴄʜᴀɴɴᴇʟ - https://whatsapp.com/channel/0029VagVrb63rZZcQ9HRX32y
+
+👉 ᴏᴡɴᴇʀ  - +94769089430
+
+*🌹☺️ - ʜᴀᴠᴇ ᴀ ɴɪᴄᴇ ᴅᴀʏ -  ☺️🌹*\n\nPREFIX: ${prefix}`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/982640de2d7f18fced629.jpg` }, caption: up })
 
